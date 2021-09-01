@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #207dff;
+  --ancent-color: #fe5f55;
+  --primary-text: rgba(0, 0, 0, 0.5);
+  --secondary-text: #010101;
+  --primary-icon: #fe6056;
+}
+
+.bg-blue {
+  background-color: var(--primary-color);
+}
+
+.bg-blue a,i {
+  color: #fff;
+  text-decoration: none;
+}
+
+.logo {
+  color: var(--secondary-text);
+  font-family: Poppins, Arial, sans-serif;
+  font-weight: 900;
+  line-height: 43px;
+  font-size: 24px;
+}
+
+.navbar {
+  position: absolute;
+  width: 100%;
+  background: rgba(228, 228, 228, 0.5);
+  z-index: 9;
+}
+
+.nav-item {
+  color: var(--secondary-text);
+}
+
+.nav-link {
+  color: var(--secondary-text);
+  font-family: Poppins, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 29px;
+  font-size: 16px;
+}
+
+.nav-link:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  background:var(--primary-color);
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.nav-link:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+
+.btn-danger:hover{
+  background-color: var(--primary-color);
+}
+.Image {
+  background-image: url(https://images.pexels.com/photos/4167541/pexels-photo-4167541.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 96vh;
+}
+
+.hero {
+  height: 96vh;
+  font-family: Poppins, Arial, sans-serif;
+}
+
+.hero h6 {
+  color: var(--primary-color);
+  font-weight: 600;
+  line-height: 22px;
+  font-size: 12px;
+}
+
+.hero h1 {
+  color: var(--secondary-text);
+  font-weight: 700;
+  line-height: 64px;
+  font-size: 64px;
+}
+
+.hero p {
+  color: var(--primary-text);
+  font-size: 16px;
+}
