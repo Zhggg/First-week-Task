@@ -9,7 +9,6 @@
   --ancent-color: #fe5f55;
   --primary-text: rgba(0, 0, 0, 0.5);
   --secondary-text: #010101;
-  --primary-icon: #fe6056;
 }
 /*Top Header*/
 .bg-blue {
@@ -24,7 +23,7 @@
 /*Navbar*/
 .logo {
   color: var(--secondary-text);
-  font-family: Poppins, Arial, sans-serif;
+  font-family: sans-serif;
   font-weight: 900;
   line-height: 43px;
   font-size: 24px;
@@ -79,7 +78,7 @@
 
 .hero {
   height: 96vh;
-  font-family: Poppins, Arial, sans-serif;
+  font-family: sans-serif;
 }
 
 .hero h6 {
@@ -104,7 +103,7 @@
   border-radius: 100px;
   width: fit-content;
   height: 7vh;
-  font-family: Poppins, Arial, sans-serif;
+  font-family: sans-serif;
   font-weight: 400;
   line-height: 24px;
   font-size: 16px;
@@ -112,7 +111,7 @@
 
 /*About*/
 h2 {
-  font-family: Poppins, Arial, sans-serif;
+  font-family: sans-serif;
   font-weight: 700;
   line-height: 53px;
   font-size: 44px;
@@ -121,7 +120,7 @@ h2 {
   color: var(--primary-color);
 }
 p{
-  font-family: Poppins, Arial, sans-serif;
+  font-family: sans-serif;
   font-weight: 400;
   line-height: 31px;
   font-size: 17px;
@@ -132,7 +131,7 @@ p{
   border-radius: 100px;
   width: fit-content;
   height: 7vh;
-  font-family: Poppins, Arial, sans-serif;
+  font-family: sans-serif;
   font-weight: 400;
   line-height: 24px;
   font-size: 16px;
@@ -147,13 +146,168 @@ p{
 /*Our services*/
 .service{
   background-color: #F8F9FA;
+  height: 100vh;
 }
 
 .service h1{
-  font-family: Poppins, Arial, sans-serif;
+  font-family: sans-serif;
   font-weight: 700;
   line-height: 53px;
   font-size: 44px;
   color: var(--secondary-text);
 }
 
+main{
+  display: grid;
+  grid-template-rows: 170px 170px;
+  grid-template-columns: 269px 269px;
+  grid-gap: 9rem;
+  text-align: center;
+}
+
+ .service main i{
+  background-color: #FFEEED;
+  color: #fe6056;
+  width: 75px;
+  height: 75px;
+  border-radius: 100%;
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+main h4{
+  font-family: sans-serif;
+  font-weight: 500;
+  line-height: 30px;
+  font-size: 23px;
+  color: var(--secondary-text);
+  
+}
+
+main p{
+  font-family: sans-serif;
+  font-weight: 400;
+  line-height: 29px;
+  font-size: 16px;
+  color: var(--primary-text);
+  text-align: left; 
+}
+.service .form{
+  background-color: white;
+  margin-top: -50px;
+  margin-left: -150px;
+  width: 40%;
+  padding: 100px;
+  height: 100vh;
+  background-size: 1000px;
+}
+
+.form h5{
+  font-family: sans-serif;
+  font-weight: 600;
+  line-height: 24px;
+  font-size: 16px;
+  color: var(--primary-color);
+}
+
+.form input{
+  border-radius: 100px;
+  margin-bottom: 30px;
+  padding: 10px 10px;
+  box-sizing: border-box;
+}
+
+.form select{
+  border-radius: 100px;
+  margin-bottom: 30px;
+  padding: 10px 10px;
+}
+
+.form .btn-danger{
+  border-radius: 100px;
+  width: 100%;
+  padding: 10px 10px;
+}
+
+.form .btn-danger:hover{
+  color: var(--ancent-color);
+  border-color: var(--ancent-color);
+  background-color: white;
+}
+
+/*Slogan*/
+.slogan{
+  background-image: url(https://images.pexels.com/photos/8413291/pexels-photo-8413291.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  background-size: cover;
+  background-position: bottom;
+  height: 60vh;
+}
+.slogan h1{
+  color: white;
+  font-family: sans-serif;
+  font-weight: 800;
+  line-height: 75px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.slogan p{
+  color: white;
+  font-family: sans-serif;
+  font-weight: 400;
+  line-height: 31px;
+  font-size: 17px;
+  text-align: center;
+}
+
+.btn-light{
+  width: fit-content;
+  border-radius: 100px;
+}
+
+/*Doctors*/
+
+.doctors main{
+  display: grid;
+  grid-template-rows: 170px 170px 170px;
+  grid-template-columns: 269px 269px 269px;
+  grid-gap: 5rem;
+  text-align: center;
+}
+
+.doctors i{
+  background-color: white;
+  color: var(--primary-color);
+  width: 75px;
+  height: 75px;
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+.doctors i:hover{
+  color: white;
+}
+
+.doctors h5{
+  color: var(--secondary-text);
+  font-family: sans-serif;
+  font-weight: 400;
+  line-height: 36px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.doctors h5:hover{
+  color: white;
+}
+
+.doctors p{
+  color: var(--primary-text);
+  font-family: sans-serif;
+  font-weight: 400;
+  line-height: 31px;
+  font-size: 17px;
+  text-align: center;
+}
+
+/*Qualified Doctors*/
