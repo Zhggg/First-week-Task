@@ -11,7 +11,7 @@
   --secondary-text: #010101;
   --primary-icon: #fe6056;
 }
-
+/*Top Header*/
 .bg-blue {
   background-color: var(--primary-color);
 }
@@ -21,6 +21,7 @@
   text-decoration: none;
 }
 
+/*Navbar*/
 .logo {
   color: var(--secondary-text);
   font-family: Poppins, Arial, sans-serif;
@@ -35,7 +36,6 @@
   background: rgba(228, 228, 228, 0.5);
   z-index: 9;
 }
-
 .nav-item {
   color: var(--secondary-text);
 }
@@ -67,11 +67,13 @@
 .btn-danger:hover{
   background-color: var(--primary-color);
 }
+
+/*Image*/
 .Image {
-  background-image: url(https://images.pexels.com/photos/4167541/pexels-photo-4167541.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-image: url(https://images.pexels.com/photos/3938022/pexels-photo-3938022.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
   height: 96vh;
 }
 
@@ -98,3 +100,60 @@
   color: var(--primary-text);
   font-size: 16px;
 }
+.btn-primary{
+  border-radius: 100px;
+  width: fit-content;
+  height: 7vh;
+  font-family: Poppins, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  font-size: 16px;
+}
+
+/*About*/
+h2 {
+  font-family: Poppins, Arial, sans-serif;
+  font-weight: 700;
+  line-height: 53px;
+  font-size: 44px;
+}
+.About strong{
+  color: var(--primary-color);
+}
+p{
+  font-family: Poppins, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 31px;
+  font-size: 17px;
+  color: var(--primary-text);
+}
+
+.About .btn-danger{
+  border-radius: 100px;
+  width: fit-content;
+  height: 7vh;
+  font-family: Poppins, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  font-size: 16px;
+}
+
+.About .btn-danger:hover{
+  color: var(--ancent-color);
+  border-color: var(--ancent-color);
+  background-color: white;
+}
+
+/*Our services*/
+.service{
+  background-color: #F8F9FA;
+}
+
+.service h1{
+  font-family: Poppins, Arial, sans-serif;
+  font-weight: 700;
+  line-height: 53px;
+  font-size: 44px;
+  color: var(--secondary-text);
+}
+
