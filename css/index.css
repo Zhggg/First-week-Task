@@ -291,7 +291,6 @@ main p{
   font-size: 30px;
   padding-top: 25px;
 }
-
 .doctors h5{
   color: var(--secondary-text);
   font-family: sans-serif;
@@ -318,6 +317,7 @@ main p{
 
  main .Neurology:hover{
    background-color: var(--primary-color);
+   color: white;
 
  }
 
@@ -470,7 +470,7 @@ main .doctor4{
 }
 
 /*Fun Facts*/
-.facts .image{
+.facts {
 background-image: url(https://images.pexels.com/photos/5327653/pexels-photo-5327653.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
 background-repeat: no-repeat;
 background-position: center;
@@ -478,13 +478,11 @@ background-size: cover;
 height: 65vh;
 align-items: center;
 }
-/*.facts .image{
+.image{
   background-color: rgb(32,125,255,0.8);
-  position: absolute;
-  height: 60vh;
-  align-items: center;
-  z-index:  ;
-}*/
+  height: 65vh;
+
+}
 .facts h6{
   font-family: sans-serif;
   font-weight: 600;
@@ -654,6 +652,286 @@ main h5{
   width: max-content;
 }
 
+/*Patient feedback*/
+.patient{
+  background-image: url(https://images.pexels.com/photos/5327653/pexels-photo-5327653.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+  align-items: center;
+}
+
+.patient .pcontent{
+  background-color: rgb(32,125,255, 0.8);
+  height: 700px;
+}
+
+.patient h4{
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 22px;
+  color:rgba(255, 255, 255, 0.9);
+  text-align: center;
+}
+
+.patient h1{
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 53px;
+  color: white;
+  text-align: center;
+}
+
+.patient main{
+  display: grid;
+  grid-template-rows: 320px;
+  grid-template-columns: 305px 305px 305px;
+  height: 421px;
+  width: 1250px;
+}
+
+.patient main .p1{
+  height: 420px;
+  width: 350px;
+}
+
+main .p1 p{
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 31px;
+  color: rgb(204,223,250);
+  text-align: center;
+}
+
+main .p1 h5{
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 31px;
+  color: #ffff;
+  text-align: center;
+}
+
+main .p1 h6{
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 22px;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+}
+
+.patient main .p2{
+  height: 420px;
+  width: 350px;
+}
+
+main .p2 p{
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 31px;
+  color: rgb(204,223,250);
+  text-align: center;
+}
+
+main .p2 h5{
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 31px;
+  color: #ffff;
+  text-align: center;
+}
+
+main .p2 h6{
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 22px;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+}
+
+.patient main .p3{
+  height: 420px;
+  width: 350px;
+}
+
+main .p3 p{
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 31px;
+  color: rgb(204,223,250);
+  text-align: center;
+}
+
+main .p3 h5{
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 31px;
+  color: #ffff;
+  text-align: center;
+}
+
+main .p3 h6{
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 22px;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+}
+
+.p1 img{
+  height: 170px;
+  width: 170px;
+  border-radius: 100%;
+}
+
+.p2 img{
+  height: 170px;
+  width: 170px;
+  border-radius: 100%;
+}
+
+.p3 img{
+  height: 170px;
+  width: 170px;
+  border-radius: 100%;
+}
+
+/*Contact*/
+.contact .touch h1{
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 53px;
+  color: var(--secondary-text);
+  text-align: center;
+}
+
+.contact .touch p{
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 31px;
+  color: var(--primary-text);
+  text-align: center;
+}
+
+.contact main{
+  display: grid;
+  grid-template-rows: 320px;
+  grid-template-columns: 191px 191px 191px 191px;
+  height: 421px;
+}
+
+.contact main i{
+  background-color: white;
+  color: var(--primary-color);
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  font-size: 30px;
+  padding-top: 30px;
+}
+
+.contact main h4{
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 26px;
+  color: var(--secondary-text);
+  text-align: center;
+}
+
+.contact main a{
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 31px;
+  color: var(--primary-text);
+  text-align: center;
+  text-decoration: none;
+}
+
+.contact main address{
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 31px;
+  color: var(--primary-text);
+  text-align: center;
+}
+
+.contact .box1{
+  height: 419px;
+  width: 290px;
+  background-color: rgb(248,249,250);
+}
+
+.contact .box2{
+  height: 419px;
+  width: 290px;
+  background-color: rgb(248,249,250);
+}
+
+.contact .box3{
+  height: 419px;
+  width: 290px;
+  background-color: rgb(248,249,250);
+}
+
+.contact .box4{
+  height: 419px;
+  width: 290px;
+  background-color: rgb(248,249,250);
+}
+
+.clast .feedback{
+  background-color: rgb(248,249,250);
+  height: 700px;
+  width: 650px;
+  align-items: center;
+}
+
+.clast .form-floating{
+  border-radius: 30px;
+  margin-bottom: 30px;
+  padding-left: 100px;
+  box-sizing: border-box;
+}
+
+.clast label{
+  align-items: center;
+  padding-left: 110px;
+}
+
+.clast .btn-danger{
+  font-family: sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  font-size: 16px;
+  text-align: center;
+  width: max-content;
+  height: max-content;
+  border-radius: 100px;
+  padding: 15px 70px;
+  margin-left: 100px;
+}
+
+.clast .btn-danger:hover{
+  background-color: white;
+  color: #fe5f55;
+}
+
 /*footer*/
 .footer{
   background-image: url(https://images.pexels.com/photos/4386495/pexels-photo-4386495.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
@@ -661,24 +939,200 @@ main h5{
   background-position: center;
   background-size: cover;
   height: 80vh;
-  width: 1520px;
+  width: 1507.5px;
+}
+
+.footer .back{
+  background-color: rgb(255,255,255,0.5);
+  width: 1507.5px;
+}
+
+.footer .container{
+  width: 1507.5px;
 }
 
 .footer main{
   display: grid;
   grid-template-rows: 400px;
-  grid-template-columns: 170px 170px 170px 170px 170px;
-  border: 1px solid yellow;
+  grid-template-columns: 130px 130px 130px 130px 130px;
   height: 400px;
-  width: 1520px;
+}
+
+.footer main .Mediplus{
+  height: 350px;
+  width: 250px;
+  margin-left: -20px;
+}
+
+.Mediplus .ficon{
+  width: fit-content;
+  height: 50px;
+}
+
+.footer .ficon i{
+  font-size: 36px;
+  line-height: 29px;
+  color: white ;
+}
+
+.ficon .fa-twitter{
+  background-color: var(--primary-color);
+  border-radius: 100%;
+  height: 50px;
+  width: 50px;
+  padding-top: 10px;
+}
+
+.ficon .fa-facebook{
+  background-color: var(--primary-color);
+  border-radius: 100%;
+  height: 50px;
+  width: 50px;
+  padding-top: 10px;
+}
+
+.ficon .fa-instagram{
+  background-color: var(--primary-color);
+  border-radius: 100%;
+  height: 50px;
+  width: 50px;
+  padding-top: 10px;
+}
+
+.footer main .Departments{
+  height: 350px;
+  width: 250px;
+}
+
+.Departments ul{
+  margin-left: -30px;
+}
+
+.Departments li{
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 29px;
+  color: var(--primary-color);
+  text-align: left;
+}
+
+.Departments a{
+  text-decoration: none;
+}
+
+.footer main .Links{
+  height: 350px;
+  width: 250px;
+}
+
+.Links ul{
+  margin-left: -30px;
+}
+
+.Links li{
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 29px;
+  color: var(--primary-color);
+  text-align: left;
+}
+
+.Links a{
+  text-decoration: none;
+}
+
+.footer main .Service{
+  height: 350px;
+  width: 250px;
+}
+
+.Service ul{
+  margin-left: -30px;
+}
+
+.Service li{
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 29px;
+  color: var(--primary-color);
+  text-align: left;
+}
+
+.Service a{
+  text-decoration: none;
+}
+
+.footer main .Questions{
+  height: 350px;
+  width: 250px;
+}
+
+.ques{
+  margin-left: -25px;
+}
+
+.ques i{
+  font-size: 18px;
+  color: var(--secondary-text);
+}
+
+.ques span{
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 29px;
+  color: var(--secondary-text);
+  margin-left: 10px;
+}
+
+.phone{
+  margin-left: -105px;
+}
+
+.phone i {
+  font-size: 18px;
+  color: var(--primary-color);
+}
+
+.phone a{
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 29px;
+  color: var(--primary-color);
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.mail{
+  margin-left: -70px;
+}
+
+.mail i {
+  font-size: 18px;
+  color: var(--primary-color);
+}
+
+.mail a{
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 29px;
+  color: var(--primary-color);
+  margin-left: 10px;
+  text-decoration: none;
 }
 
 .footer main h3{
-  font-family: sans-serif;
+  font-family: Arial;
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
   color: var(--secondary-text);
+  text-align: left;
 }
 
 .footer main p{
@@ -687,20 +1141,26 @@ main h5{
   font-size: 16px;
   line-height: 29px;
   color: var(--primary-text);
+  text-align: left;
+}
+
+
+.footer .copyright p{
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 29px;
+  color: rgba(0, 0, 0, 0.7);
+  text-decoration: none;
   text-align: center;
 }
 
-.footer main a{
+.footer .copyright a{
   font-family: sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 29px;
   color: var(--primary-color);
   text-decoration: none;
-}
-
-.footer .fmediplus i{
-  font-size: 56px;
-  line-height: 29px;
-  color: var(--primary-color);
+  text-align: center;
 }
